@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Project 7 - Navigation</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	
+<script type="text/javascript" src="myscripts.js"></script>
+	
+</head>
+
+<body onLoad="preLoadImages">
+<header>
+	<a href="index.html" onMouseOver="document.logo.src=logo2.src;" class="logoleft"
+	onMouseOut="document.logo.src=logo1.src;">
+
+	<img src="images/logo1.jpg" width="150" height="175" 
+	name="logo" alt="logo" style="border:solid thick #808080;"/>
+
+	</a>
+	
+	<img alt="Banner" height="175" src="images/banner.jpg" width="505" style="border: solid thick #808080;">
+</header>
+<section>
+	
+<nav>
+	<a href="home.html">Home</a><br>
+		<a href="aboutus.html">About Us</a><br>
+		<a href="tributes.html">Tributes</a><br>
+		<a href="favorites.html">Favorites</a><br>
+	<a href="surveypage.html">Survey Page</a></nav>
+	
+	
+	<arcticle>
+	<h2>
+		Welcome to Native Cooking of Utah! </h2>
+<h4>If you love to cook like we do, you should enjoy looking around this site.  
+		</h4>
+		
+		<div id="thumbs">
+		<img src="Images/Thumbnails/Image1Sm.jpg" alt="chef" onmouseover="swapImage(0);" />
+		<img src="Images/Thumbnails/Image2Sm.jpg" alt="Dutch oven" onmouseover="swapImage(1);" />
+		<img src="Images/Thumbnails/Image3Sm.jpg" alt="Pasta" onmouseover="swapImage(2);" />
+		<img src="Images/Thumbnails/Image4Sm.jpg" alt="RasberryCakeLg" onmouseover="swapImage(3);" />
+		
+</div>
+
+	<div id="image">
+
+		<img id="theImage" src="Images/Fullsize/Image1Lg.jpg" alt="chef" />
+		<h3 id="bottomText"></h3>
+	</div>
+<br />
+		<h3>
+		Take a look at our Recipes and take the opportunity to complete our survey.
+		</h3>
+	
+	</arcticle>
+</section>
+<footer>
+	<h5> This website has been created for soley for educational purposes</h5>
+	<h5><a href="mailto%2010944892@uvu.edu">10944892@uvu.edu</a></h5>
+</footer>
+</body>
+</html>
