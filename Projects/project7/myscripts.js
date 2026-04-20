@@ -6,7 +6,6 @@ if (document.images) {
 	PrintButton1.src = "Images/print5.gif"
 	PrintButton2.src = "Images/print6.gif"
 	logo1.src = "Images/logo1.jpg"
-	logo2.src = "Images/logo2.jpg"
 }
 
 
