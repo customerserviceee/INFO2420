@@ -23,7 +23,7 @@ if (document.images) {
 		var titleArray = new Array(
 			'Chef',
 			'Dutch oven',
-			'Couple cooking',
+			'Pasta',
 			'Rasberry Cake '
 			
 		);
