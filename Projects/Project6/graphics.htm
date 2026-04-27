@@ -41,8 +41,8 @@
 	logo1 = new Image
 	logo2 = new Image
 if (document.images) {
-	PrintButton1.src = "images/print5.gif"
-	PrintButton2.src = "images/print6.gif"
+	PrintButton1.src = "Images/print5.gif"
+	PrintButton2.src = "Images/print6.gif"
 	logo1.src = "images/logo1.jpg"
 	logo2.src = "images/logo2.jpg"
 }
@@ -66,7 +66,7 @@ if (document.images) {
 			
 		);
 			
-		var imgPath = "images/Fullsize/";
+		var imgPath = "Images/Fullsize/";
 		
 		function swapImage(imgID) {
 
@@ -84,7 +84,7 @@ if (document.images) {
       			textDiv.innerHTML = textTitle;
 		}
 			
-		function preloadimages() {		
+		function preloadImages() {		
 			for(var i = 0; i < imgArray.length; i++) {
 				var tmpImg = new Image;
 				tmpImg.src = imgPath + imgArray[i];
@@ -96,7 +96,7 @@ if (document.images) {
 
 
 </head>
-<body  onload="preloadimages()">
+<body  onload="preloadImages()">
 
 <div align="center">
 
@@ -104,7 +104,7 @@ if (document.images) {
 	<a href="" onMouseOver="document.PrintButton.src=PrintButton2.src;"
 	onMouseOut="document.PrintButton.src=PrintButton1.src;">
 
-	<img src="images/print5.gif" width="250" height="50" 
+	<img src="Images/print5.gif" width="250" height="50" 
 	name="PrintButton" alt="PrintButton" style="border:none;"/>
 
 	</a>
@@ -115,7 +115,7 @@ if (document.images) {
 	<a href="logo.html" onMouseOver="document.logo.src=logo2.src;"
 	onMouseOut="document.logo.src=logo1.src;">
 
-	<img src="images/logo1.jpg" width="133" height="126" 
+	<img src="Images/logo1.jpg" width="133" height="126" 
 	name="logo" alt="logo" style="border:none;"/>
 
 	</a>
@@ -128,20 +128,20 @@ if (document.images) {
 
 
 <div id="thumbs">
-		<img src="images/Thumbnails/Image1Sm.jpg" alt="Chef" onmouseover="swapImage(0);" />
-		<img src="images/Thumbnails/Image2Sm.jpg" alt="Dutch oven" onmouseover="swapImage(1);" />
-		<img src="images/Thumbnails/Image3Sm.jpg" alt="Couple cooking" onmouseover="swapImage(2);" />
-		<img src="images/Thumbnails/Image4Sm.jpg" alt="Rasberry cake" onmouseover="swapImage(3);" />
+		<img src="Images/Thumbnails/Image1Sm.jpg" alt="Chef" onmouseover="swapImage(0);" />
+		<img src="Images/Thumbnails/Image2Sm.jpg" alt="Dutch oven" onmouseover="swapImage(1);" />
+		<img src="Images/Thumbnails/Image3Sm.jpg" alt="Couple cooking" onmouseover="swapImage(2);" />
+		<img src="Images/Thumbnails/Image4Sm.jpg" alt="Rasberry cake" onmouseover="swapImage(3);" />
 		
 </div>
 
 	<div id="image">
 
-		<img id="theImage" src="images/FullSize/Image1Lg.jpg" alt="Dog doing trick" />
-		<h3 id="bottomText"></h3>
+		<img id="theImage" src="Images/FullSize/Image1Lg.jpg" alt="Dog doing trick" />
+		<h3 id="bottomText">Newlyweds Sailing</h3>
 	</div>
 
-<img src="images/2colback.jpg">
+<img src="Images/2colback.jpg">
 
 <br />
 <br />
