@@ -2,7 +2,7 @@ PrintButton1 = new Image
 	PrintButton2 = new Image
 	logo1 = new Image
 	logo2 = new Image
-if (document.images) {
+if (document.Images) {
 	PrintButton1.src = "Images/print5.gif"
 	PrintButton2.src = "Images/print6.gif"
 	logo1.src = "Images/logo1.jpg"
@@ -27,7 +27,7 @@ if (document.images) {
 			
 		);
 			
-		var imgPath = "images/Fullsize/";
+		var imgPath = "Images/Fullsize/";
 		
 		function swapImage(imgID) {
 
